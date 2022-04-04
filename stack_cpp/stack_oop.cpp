@@ -36,6 +36,7 @@ class stack{
 
 int main()
 {
+    //simple operations of adding elements and combining the first two stacks
     stack stack1, stack2, stackTree;
     stack1.push(4);
     stack1.push(6);
