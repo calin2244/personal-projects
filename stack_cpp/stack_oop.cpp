@@ -11,7 +11,7 @@ class stack{
         stack();
         void push(int i);
         int pop();
-        int size() {
+        int size() const{
             return pos;
         }
         int getElementAtPosition(int i);
