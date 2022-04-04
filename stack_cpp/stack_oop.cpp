@@ -43,9 +43,7 @@ int main()
     stack2.push(7);
     stack2.push(9);
     stackTree = stack1 + stack2;
-    stackTree.showStackElements();
-    //stackTree.showStackElements();
-    
+    stackTree.showStackElements();  
 }
 
 void stack::push(int i)
