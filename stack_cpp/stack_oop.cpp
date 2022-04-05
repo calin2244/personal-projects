@@ -1,10 +1,10 @@
 #include <iostream>
-#include <vector>
 
 #define SIZE 100000
 //const unsigned int SIZE = 100;
 
-class stack{
+class stack
+{
     int stck[SIZE];
     int pos;
     public:
@@ -16,22 +16,7 @@ class stack{
         }
         int getElementAtPosition(int i);
         void showStackElements();
-        stack operator+(stack& other)
-        {
-            stack myStack;
-            for(int i = 0; i<other.size(); i++)
-            {
-                (*this).push(other.getElementAtPosition(i));
-            }
-
-            for(int i = 0; i<(*this).size(); i++)
-            {
-                myStack.push((*this).getElementAtPosition(i));
-            }
-            //std::cout<<myStack.size();
-            //myStack.showStackElements();
-            return myStack;
-        }
+        stack operator+(stack& other);
 };
 
 int main()
@@ -47,7 +32,12 @@ int main()
     stack2.push(9);
     
     stack3 = stack1 + stack2;
-    stack3.showStackElements();  
+    stack3.showStackElements(); //4 7 9
+}
+
+stack::stack()
+{
+    pos = 0;
 }
 
 void stack::push(int i)
@@ -94,6 +84,18 @@ int stack::getElementAtPosition(int i)
     return stck[i];
 }
 
-stack::stack(){
-    pos = 0;
+stack operator+(stack& other)
+{
+    stack myStack;
+    for(int i = 0; i<other.size(); i++)
+    {
+        (*this).push(other.getElementAtPosition(i));
+    }
+
+    for(int i = 0; i<(*this).size(); i++)
+    {
+        myStack.push((*this).getElementAtPosition(i));
+    }
+        
+    return myStack;
 }
