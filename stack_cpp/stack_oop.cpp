@@ -11,7 +11,7 @@ class stack{
         stack();
         void push(int i);
         int pop();
-        int size() {
+        int size() const{
             return pos;
         }
         int getElementAtPosition(int i);
@@ -36,15 +36,14 @@ class stack{
 
 int main()
 {
+    //simple operations of adding elements and combining the first two stacks
     stack stack1, stack2, stackTree;
     stack1.push(4);
     stack1.push(6);
     stack2.push(7);
     stack2.push(9);
     stackTree = stack1 + stack2;
-    stackTree.showStackElements();
-    //stackTree.showStackElements();
-    
+    stackTree.showStackElements();  
 }
 
 void stack::push(int i)
