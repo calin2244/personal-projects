@@ -3,8 +3,7 @@
 #define SIZE 100000
 //const unsigned int SIZE = 100;
 
-class stack
-{
+class stack{
     int stck[SIZE];
     int pos;
     public:
@@ -16,7 +15,21 @@ class stack
         }
         int getElementAtPosition(int i);
         void showStackElements();
-        stack operator+(stack& other);
+        stack operator+(stack& other)
+        {
+            stack myStack;
+            for(int i = 0; i<other.size(); i++)
+            {
+                (*this).push(other.getElementAtPosition(i));
+            }
+
+            for(int i = 0; i<(*this).size(); i++)
+            {
+                myStack.push((*this).getElementAtPosition(i));
+            }
+                
+            return myStack;
+        }
 };
 
 int main()
@@ -32,7 +45,7 @@ int main()
     stack2.push(9);
     
     stack3 = stack1 + stack2;
-    stack3.showStackElements(); //4 7 9
+    stack3.showStackElements();  
 }
 
 stack::stack()
@@ -82,20 +95,4 @@ int stack::getElementAtPosition(int i)
         return 0;
     }
     return stck[i];
-}
-
-stack operator+(stack& other)
-{
-    stack myStack;
-    for(int i = 0; i<other.size(); i++)
-    {
-        (*this).push(other.getElementAtPosition(i));
-    }
-
-    for(int i = 0; i<(*this).size(); i++)
-    {
-        myStack.push((*this).getElementAtPosition(i));
-    }
-        
-    return myStack;
 }
