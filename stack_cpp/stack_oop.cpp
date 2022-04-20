@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 
 #define SIZE 100000
 //const unsigned int SIZE = 100;
@@ -28,8 +27,7 @@ class stack{
             {
                 myStack.push((*this).getElementAtPosition(i));
             }
-            //std::cout<<myStack.size();
-            //myStack.showStackElements();
+                
             return myStack;
         }
 };
@@ -48,6 +46,11 @@ int main()
     
     stack3 = stack1 + stack2;
     stack3.showStackElements();  
+}
+
+stack::stack()
+{
+    pos = 0;
 }
 
 void stack::push(int i)
@@ -92,8 +95,4 @@ int stack::getElementAtPosition(int i)
         return 0;
     }
     return stck[i];
-}
-
-stack::stack(){
-    pos = 0;
 }
