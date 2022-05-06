@@ -13,12 +13,13 @@
  * @property {int} hour - The hour of the time you want to add minutes to.
  * @property {int} minute - The minute of the hour.
  * @property {int} mins_to_add - The number of minutes to add to the time.
+ * Only used for testing the clock class.
  */
 
 struct addMins{
     int hour;
     int minute;
-    int mins_to_add; //or to substract
+    int mins_to_add; /* or to substract. */
 };
 
 std::vector<addMins> t = {
