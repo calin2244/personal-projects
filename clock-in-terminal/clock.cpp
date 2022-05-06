@@ -14,7 +14,7 @@
  * @property {int} minute - The minute of the hour.
  * @property {int} mins_to_add - The number of minutes to add to the time.
  * Only used for testing the clock class.
- */
+**/
 
 struct addMins{
     int hour;
