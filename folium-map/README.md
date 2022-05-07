@@ -1,4 +1,4 @@
-# A map made with folium in Python showing the Gas Stations displaying almost every gas station from my home town, Romania's counties and all of the World's rivers
+# A map made with folium in Python displaying the most popular gas stations from my home town, Romania's counties and all of the World's rivers
 
 
   Gas Stations Markers are displayed at the designated location of each gas station. The marker can be clicked 
