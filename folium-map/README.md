@@ -2,8 +2,10 @@
 
 
   Gas Stations Markers are displayed at the designated location of each gas station. The marker can be clicked 
-for more information on the gas station.
-![image](https://user-images.githubusercontent.com/95591065/167263126-dce0ca7c-f817-47c0-a227-dc57bcf714c9.png)
+for a quick personal review of the gas station.
+
+![image](https://user-images.githubusercontent.com/95591065/167263337-7bddafc8-5940-43d5-951d-3c671ab53f9e.png)
+
 
   The markers can be disabled/enabled any time via the legend in the right upper corner.
 
