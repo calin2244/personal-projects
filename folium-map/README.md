@@ -1,10 +1,8 @@
 # A map made with folium in Python displaying the most popular gas stations from my home town, Romania's counties and all of the World's rivers
 
-
-
-    npm
-
-    npm install npm@latest -g
+Get the HTML map by running the python code in your terminal.
+    
+    py.exe .\harta.py
 
   Gas Stations Markers are displayed at the designated location of each gas station. The marker can be clicked 
 for a quick personal review of the gas station.
