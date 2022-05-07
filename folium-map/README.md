@@ -15,3 +15,6 @@ for a quick personal review of the gas station.
 
 ![image](https://user-images.githubusercontent.com/95591065/167263200-1fcdad19-b2b3-4703-a032-f25ab32cb6e2.png)
 
+Using TOPOJson, I've highlighted Romania and its counties.
+![image](https://user-images.githubusercontent.com/95591065/167263450-bbd3bd39-9598-411e-b267-0433eb446c3f.png)
+
