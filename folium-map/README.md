@@ -2,7 +2,9 @@
 
 Get the HTML map by running the python code in your terminal.
     
-    py.exe .\harta.py
+```py
+py.exe .\harta.py
+```
 
   Gas Stations Markers are displayed at the designated location of each gas station. The marker can be clicked 
 for a quick personal review of the gas station.
