@@ -1,0 +1,8 @@
+Numarul,Benzinarie,Locatie,Descriere,Nume Poza,Latitudine,Longitudine
+1,OMV,Strada Prelungirea Bradului 1-3,Motorina si Benzina ieftine,\BENZ_0,46.5745,26.9012
+2,MOL,Strada 9 Mai 84,O benzinarie decenta,\BENZ_1,46.57272824764552,26.915319174187005
+3,Rompetrol,Strada Stefan cel Mare 66,Benzinarie cu MyAuchan(nu toate Rompetrol-urile au),\BENZ_2,46.57745088835439,26.915267203971805
+4,Lukoil,Strada Arcadie Septilici 1A,Preturi si combustibil foarte bune,\BENZ_3,46.556990093839175,26.884875966401854
+5,Peco,Calea Marasesti,Benzinarie necunoscuta,\BENZ_4,46.559022761675365,26.91169660928982
+6,Rompetrol,Strada Milcov 5A,Benzinarie fara MyAuchan,\BENZ_5,46.55728503151022,26.92536206737472
+7,Socar,Strada Cronica Neculce 1,Benzinarie cu cafea foarte buna,\BENZ_6,46.570413170228434,26.9198397249557

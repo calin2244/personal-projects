@@ -1,0 +1,2 @@
+Numarul,Proprietar,Descriere,Locatie,Lat,Lon
+1,Ap. lui Dutu,Apartament casa memoriala,Strada Martir Horia 22,46.57458001122558,26.906679992986227
