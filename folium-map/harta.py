@@ -93,9 +93,6 @@ for lt, ln, des, prop in zip(lat_ap, lon_ap, desc_ap, list(df_Ap['Proprietar']))
     icon = logo_ap, draggable = False,
     tooltip = folium.Tooltip('Apartamentul lui ' + prop)))
 
-#for coordinates in [[46.5676, 26.8967], [46.5676, 26.8951]]:
-#   fg.add_child(folium.Marker(location = coordinates, popup = 'Hereee', icon = folium.Icon(color = 'green'), draggable = True, tooltip = folium.Tooltip('adresa mea', sticky = False)))
-
 #TOPOJSON AND GeoJson
 
 fg_rivers = folium.FeatureGroup(name = "World's Rivers", show = False)
