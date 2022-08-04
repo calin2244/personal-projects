@@ -1,3 +1,12 @@
+<div id = "header" align = "center">
+  <img src = "https://avatars.githubusercontent.com/u/95591065?v=4" width = 90/>
+  <div id="badges">
+  <a href="https://www.linkedin.com/in/calin-basturea-349a15234/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  </div>
+</div>
+
 # A map made with folium in Python displaying the most popular gas stations from my home town, Romania's counties and all of the World's rivers
 
 Get the HTML map by running the python code in your terminal.
